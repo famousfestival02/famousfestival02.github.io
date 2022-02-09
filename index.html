@@ -1,177 +1,111 @@
-<!doctype html>
-<html lang='en'>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-        <title>Famous Festival 2.0</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" link rel="stylesheet" href="style.css" />
-        <script src="script.js"></script>
-    </head>
-    <body>
+<!DOCTYPE html>
+<html><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><style lang="en" type="text/css" id="dark-mode-native-style"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>KangmasDarr</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/media/darma.jpg" type="image/jpg">
+</head>
+    
+<body data-new-gr-c-s-check-loaded="14.1014.0" data-gr-ext-installed="">
     <style>
-    @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
-
-* {
-    box-sizing: border-box;
+            #footer {
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 25px 0;
+  position: relative;
 }
-
-body {
-    background-color: #FFC0CB;
-    font-family: "Roboto", sans-serif;
-    margin: 0;
+#footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
 }
-
-.container {
-    padding: 1rem;
-    margin: 0 auto;
-    max-width: 100%;
-    width: 1000px;
+#footer .container {
+  position: relative;
 }
-
-header {
-    background-image: url("https://g.top4top.io/p_2230uucys0.png");
-    background-size: cover;
-    background-position: center center;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    min-height: calc(100vh - 102px);
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Satisfy", serif;
+  padding: 0;
+  margin: 0 0 15px 0;
 }
-
-.content {
-    font-size: 2rem;
-    margin: auto;
-    max-width: 100%;
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
 }
-
-.content h1 {
-    color: #00c2ff;
-    margin-bottom: 0;
+#footer .social-links {
+  margin: 0 0 40px 0;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #5959ff;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
 }
-
-nav .logo {
-    font-size: 2.5rem;
+#footer .social-links a:hover {
+  background: #f3a200;
+  color: #fff;
+  text-decoration: none;
 }
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
+#footer .copyright {
+  margin: 0 0 5px 0;
 }
-
-nav li a {
-    color: white;
-    padding: 1rem;
-    text-decoration: none;
+#footer .credits {
+  font-size: 13px;
 }
+    </style>
+    <img id="userPhoto" src="https://g.top4top.io/p_2230uucys0.png" alt="User Photo">
+    
+    <a href="https://instagram.com/darrma23" id="userName">KangmasDarr</a>
+    <div id="links">
+        <a class="link" href="https://darrma23.github.io/bumcin/bucin.html">Bucin Web V 1</a>
+    </div>
+    <div id="links">
+        <a class="link" href="https://darrma23.github.io/bumcin/bucin2.html">Bucin Web V 2</a>
+    </div>
+    <div id="links">
+        <a class="link" href="https://darrma23.github.io/bumcin/bucin3.html">Bucin Web V 3</a>
+    </div>
+    <div id="links">
+        <a class="link" href="https://darrma23.github.io/bumcin/bucin4.html">Bucin Web V 4</a>
+    </div>
+    <div id="links">
+        <a class="link" href="https://darrma23.github.io/creator/phlogo.html">Ph logo Generator</a>
+    </div>
+    <div id="links">
+        <a class="link" href="https://darrma23.github.io/bot/mybot.html">Bot WhatsApp</a>
+    </div>
+    
+      <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        2021 &copy; <strong><span>Darma Syamsi</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-.selected {
-    font-weight: bold;
-}
+    <!-- Javascript -->
+    <script src="./script/jquery.min.js.download"></script>
+    <script src="./script/index.js.download"></script>
 
-.highlight {
-    background-color: #00c2ff;
-    color: white;
-    padding: 1rem;
-    text-decoration: none;
-}
-
-footer {
-    background-color: #000;
-    color: #fff;
-    padding: 1rem;
-}
-
-footer ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-}
-
-footer strong {
-    color: #00c2ff;
-}
-
-footer p {
-    margin: 0;
-}
-
-@media screen and (max-width: 7000px) {
-    .content {
-        margin: 2rem auto 0;
-        font-size: 1.4rem;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav li:not(:last-child) {
-        margin-bottom: 1rem;
-    }
-
-    nav .highlight {
-        display: none;
-    }
-
-    footer ul {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    footer li {
-        margin: 1rem;
-        text-align: center;
-    }
-}
-</style>
-      <header>
-        <nav class="container">  
-            <div class="logo">
-                <i class="fas fa-robot"></i><button onclick="typeWriter()" style="border-radius: 10px; background: none; opacity: 10px;"> <font id="demo" face="aladin" size="6" color="white">FamousFestival<br></font> </button>
-            </div>
-            <ul>
-                <li><a href="#" class="selected">Home</a></li>
-                <li><a href="https://instagram.com/famous.festival">Instagram</a></li>
-                <li><a href="/informasi/">Famous</a></li> 
-                <li><a href="/profile/">Kontak</a></li> 
-                <li><a href="/lomba/">Lomba</a></li>                 
-                <li><a href="https://bit.ly/FamousFestival" class="highlight">Link Pendaftaran</a></li>
-            </ul>
-        </nav>
-        <div class="content">
-            <div class="container">
-            <h1>Famous Festival</h1>
-            <p>Famous Festival 2.0</p> 
-            <a class="highlight" href="https://bit.ly/FamousFestival">Link Pendaftaran</a>
-        </div>
-        </div>
-        </header>
-
-        <footer>
-            <ul class="container">
-                <li>
-                    <strong>Author</strong>
-                    <p>Umar Fajar</p>
-                </li>
-                <li>
-                    <strong>Phone</strong>
-                    <p>+6281283933929</p>
-                </li>
-                <li>
-                    <strong>Email</strong>
-                    <p>famousfestival01@gmail.com</p>
-                </li>
-            </ul>
-        </footer>
-    </body>
-<html>
-
+</body></html>
